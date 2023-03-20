@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "230691880391",
+    "project_id": "choco3d-4a6e9",
+    "storage_bucket": "choco3d-4a6e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230691880391:android:fe4cd067e14d257c422de2",
+        "android_client_info": {
+          "package_name": "fr.mounir.imprimante3d"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230691880391-9a2aqks7m2s9s2phk76c6d79ltvu7khb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaoTF2Kcq6ou17kL4FWZ_MdqEe_75gB0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230691880391-9a2aqks7m2s9s2phk76c6d79ltvu7khb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Choco3D</string>
+
+    <!-- Page d'accueil -->
+    <string name="home_page_title">A découvrir</string>
+    <string name="home_page_last_form_section">Dernières formes</string>
+
+    <!-- Pages de formes -->
+    <string name="form_page">Mes formes</string>
+
+    <!-- Pages d'ajout de formes-->
+    <string name="add_form_page">Ajout d\'une forme</string>
+    <string name="add_form_page_upload_button">Charger image</string>
+    <string name="add_form_page_name_input">@string/item_form_name</string>
+    <string name="add_form_page_file">Ajouter son fichier STL</string>
+    <string name="add_form_page_confirm_button">Confirmer</string>
+
+
+    <!-- Formes custome -->
+    <string name="item_form_name">Nom de la forme</string>
+
+
+
+
+
+</resources>
