@@ -24,7 +24,7 @@ class HomeFragment(
         // récupérer le recyclerview
 
         val horizontalRecyclerView = view.findViewById<RecyclerView>(R.id.horizontal_recycler_view)
-        horizontalRecyclerView.adapter = FormAdapter(context, formList, R.layout.item_horizontal_form)
+        horizontalRecyclerView.adapter = FormAdapter(context, formList.filter { !it.liked } as ArrayList<FormModel>, R.layout.item_horizontal_form)
 
         // récupérer le recyclerview
         val verticalRecyclerView = view.findViewById<RecyclerView>(R.id.vertical_recycler_view)

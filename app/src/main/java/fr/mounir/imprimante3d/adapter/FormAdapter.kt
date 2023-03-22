@@ -9,6 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import fr.mounir.imprimante3d.FormModel
+import fr.mounir.imprimante3d.FormRepository
 import fr.mounir.imprimante3d.MainActivity
 import fr.mounir.imprimante3d.R
 
@@ -39,7 +40,7 @@ class FormAdapter(
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val currentForms = formList[position]
 
-
+        val repo = FormRepository()
 
         Glide.with(context).load(Uri.parse(currentForms.imageUrl)).into(holder.formImage)
 
@@ -57,7 +58,7 @@ class FormAdapter(
             //inverser si le bouton est like ou non
             currentForms.liked = !currentForms.liked
             //mettre a jour l'objet forme
-
+            repo.updateForm(currentForms)
         }
     }
 }

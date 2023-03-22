@@ -1,12 +1,16 @@
 <resources>
     <string name="app_name">Choco3D</string>
 
+    <string name="bottom_home_item">Accueil</string>
+    <string name="bottom_forms_item">Mes formes</string>
+    <string name="bottom_add_form_item">Ajouter</string>
+
     <!-- Page d'accueil -->
     <string name="home_page_title">A découvrir</string>
     <string name="home_page_last_form_section">Dernières formes</string>
 
     <!-- Pages de formes -->
-    <string name="form_page">Mes formes</string>
+    <string name="form_page_title">Mes formes</string>
 
     <!-- Pages d'ajout de formes-->
     <string name="add_form_page">Ajout d\'une forme</string>
