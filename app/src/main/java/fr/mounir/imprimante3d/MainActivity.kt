@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import fr.mounir.imprimante3d.fragments.AddFormFragment
 import fr.mounir.imprimante3d.fragments.FormsFragment
 import fr.mounir.imprimante3d.fragments.HomeFragment
 
@@ -26,6 +27,11 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.form_page -> {
                     loadFragment(FormsFragment(this), R.string.form_page_title)
+                    return@setOnNavigationItemSelectedListener true
+
+                }
+                R.id.add_form_page -> {
+                    loadFragment(AddFormFragment(this), R.string.add_form_page_title)
                     return@setOnNavigationItemSelectedListener true
 
                 }

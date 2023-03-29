@@ -13,7 +13,7 @@
     <string name="form_page_title">Mes formes</string>
 
     <!-- Pages d'ajout de formes-->
-    <string name="add_form_page">Ajout d\'une forme</string>
+    <string name="add_form_page_title">Ajout d\'une forme</string>
     <string name="add_form_page_upload_button">Charger image</string>
     <string name="add_form_page_name_input">@string/item_form_name</string>
     <string name="add_form_page_file">Ajouter son fichier STL</string>
